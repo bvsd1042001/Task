@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    color: white;
+    background-color: #a64ca6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    margin: 0;
+    
+}
+
+.header p {
+    color: #333;
+    font-size: 1em;
+    margin-top: 10px;
+}
+hr{
+    width:60%;
+    border-top: dashed;
+    color: #a64ca6;
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-section h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.team-category {
+    margin-bottom: 40px;
+}
+
+
+.team-category h3 {
+    /* color: #a64ca6;
+    margin-bottom: 20px;
+    font-size: 1.2em; */
+    font-size: larger;
+    width: 22rem;
+    margin:1rem auto;
+    padding: 0.5rem;
+    color:white;
+    background-color: #a64ca6;
+    margin-bottom: 20px;
+    font-size: 1.2em; 
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius:1rem ;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.team-member {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.team-member p {
+    color: #333;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .team-member {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5em;
+    }
+    
+    .team-member {
+        width: 100%;
+    }
+    
+    .team-category h3 {
+        font-size: 1em;
+    }
+}

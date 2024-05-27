@@ -1,0 +1,150 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 0;
+}
+
+
+header .logo {
+    height: 50px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-color: #003366;
+
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.about, .features, .testimonials, .signup {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2, .features h2, .testimonials h2, .signup h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.feature-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    color: #666;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-box {
+        width: 45%;
+    }
+
+    .testimonials blockquote {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .feature-box {
+        width: 90%;
+    }
+
+    .testimonials blockquote {
+        width: 100%;
+    }
+}

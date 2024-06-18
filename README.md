@@ -15,10 +15,14 @@ for virtual internship at VechTech
             </tr>
             <tr>
                 <td>Landing Page</td>
-                <td>https://bvsd1042001.github.io/Task/Task2/index1</td>
+                <td>https://bvsd1042001.github.io/Task/Task4/index</td>
             </tr>
          <tr>
                 <td>TO-DO App</td>
+                <td>https://bvsd1042001.github.io/Task/Task3/index2</td>
+            </tr>
+          <tr>
+                <td> A Frontend OTT Platform Replica </td>
                 <td>https://bvsd1042001.github.io/Task/Task3/index2</td>
             </tr>
         </tbody>
